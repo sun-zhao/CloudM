@@ -2,13 +2,13 @@
 /* CSS Document */
 .LeftMain{width:220px;}
 .RightMain,.RightIn{border:1px solid #e9e9e9;border-radius:3px;}
-.RightMain{width:756px;padding:3px;background: #f7f7f7;}
-.RightIn{background: #fff;height:482px;padding: 40px 25px;}
+.RightMain{width:756px;padding:3px;background: #f7f7f7;overflow: hidden;}
+.RightIn{background: #fff;height:562px;padding: 40px 25px;}
 /*搜索框*/
 .search{width:218px;border:1px solid #eae9e9;height:30px;position: relative;}
 .search input{border:0;line-height: 30px;height:30px;outline:none;padding-left:5px;width: 176px;}
 .search .Icon-ser{position: absolute;top:1px;right:2px;}
-.MList{border:1px solid #e2dede;background: #f7f7f7;position: relative;overflow: hidden;height: 474px;}
+.MList{border:1px solid #e2dede;background: #f7f7f7;position: relative;overflow: hidden;height: 554px;}
 .ML-top{height: 33px;border-bottom:1px solid #e2dede;line-height: 33px;padding:0 5px 0 10px;background: #fff;position: relative;z-index: 20;}
 .RoomList{position: absolute;width: 100%;height: 9999px;left:0;top:0;padding-top: 40px;}
 .RoomList li{margin-top:10px;}
@@ -44,6 +44,22 @@
 .Mpage a.md-p-no{color:#D0D0D0;}
 .Mpage a.md-p-no:hover{background: none;color:#D0D0D0;cursor:inherit;}
 .Mpage a.block{border-width:1px;margin:0 auto;cursor:pointer;}
+.RightBar{width:50px;height:480px;background: #f7f7f7;border:1px solid #e9e9e9;position:absolute;right:-46px;top:106px;border-right-width: 0;z-index: 30;}
+.RightBarIn{width:100%;height: 100%;position: relative;}
+.RightBarIn .Icon-show,.RightBarIn .Icon-hide{position: absolute;top:50%;margin-top:-21px;left:-13px;}
+.RightBarIn a.Rbtn{display: block;width: 45px;margin: 25px auto 0 auto;text-align: center;color: #2483cb;}
+.RightBarIn a.Rbtn .Icon{display: block;margin: 2px auto;}
+.RightBarIn .voice{border:1px solid #e2dede;border-width:1px 0;margin:0 5px;background: #f7f7f7;z-index: 40;position: relative;}
+.RightBarIn a.loginOut{color:#f34559;}
+.RightBarIn a.loginOut .Icon{right:-2px;top:-4px;}
+.RightBarIn .voiceM{width:82px;height:33px;background: url("../images/m-bg.png");position: absolute;bottom:97px;left:86px;padding-left: 3px;z-index: 0;}
+.RightBarIn .voiceM input{border:0;width:30px;text-align: center;line-height: 20px;height:20px;margin-top:2px;background: none;}
+.RightBarIn .voiceM .Icon{top:7px;}
+
+
+
+
+
 
 
 

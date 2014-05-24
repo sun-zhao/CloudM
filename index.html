@@ -5,6 +5,35 @@
     <title>云会议</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/Mstyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //s伸缩右侧边栏
+            var showBtn =$('#showBtn');
+            var RightBar =showBtn.parents('.RightBar');
+            showBtn.click(function(){
+                $this = $(this);
+                if($this.hasClass('Icon-show')){
+                    $this.removeClass('Icon-show').addClass('Icon-hide');
+                    RightBar.stop().animate({right:4},100);
+                }else{
+                    $this.removeClass('Icon-hide').addClass('Icon-show');
+                    RightBar.stop().animate({right:-46},100);
+                }
+            });
+            //弹出音量控制
+            var voice = $('#voice');
+            var voiceM = $('.voiceM');
+            voice.click(function(){
+                var voiceML =parseInt(voiceM.css("left"));
+                if(voiceML==86){
+                    voiceM.stop().animate({left:-86},200);
+                }else{
+                    voiceM.stop().animate({left:86},200);
+                }
+            });
+        })
+    </script>
 </head>
 <body>
 <div id="Container">
@@ -110,6 +139,30 @@
         <!--右侧begin-->
         <div class="RightMain floatright">
             <div class="RightIn">
+                <!--右侧边栏begin-->
+                <div class="RightBar">
+                    <div class="RightBarIn">
+                        <span class="Icon Icon-show" id="showBtn"></span>
+                        <a href="#" title="议题" class="Rbtn"><i class="Icon Icon-write"></i>议题</a>
+                        <a href="#" title="文档" class="Rbtn"><i class="Icon Icon-doc"></i>文档</a>
+                        <a href="#" title="成员" class="Rbtn"><i class="Icon Icon-me"></i>成员</a>
+                        <a href="#" title="设置" class="Rbtn"><i class="Icon Icon-set"></i>设置</a>
+                        <a href="#" title="解散" class="Rbtn"><i class="Icon Icon-del"></i>解散</a>
+                        <span class="block voice mart20 nomar  noborder" style="width: 55px;margin-right: -4px;">
+                            <span class="block voice clearfix">
+                                <a href="javascript:;" class="Icon Icon-v" id="voice" title="音量控制"></a>
+                                <a href="#" class="Icon Icon-m floatright marr5" title="麦克风"></a>
+                            </span>
+                        </span>
+                        <div class="voiceM clearfix">
+                            <a href="#" class="Icon Icon-minus"></a>
+                            <input type="text" maxlength="3">
+                            <a href="#" class="Icon Icon-plus over"></a>
+                        </div>
+                        <a href="#" class="Rbtn loginOut mart20"><i class="Icon Icon-out"></i> 退出</a>
+                    </div>
+                </div>
+                <!--右侧边栏over-->
                 <div class="Frame">
                     <p class="Mtitle font16"><i class="Icon Icon-time"></i> 最近会议</p>
                     <div class="FrameIn">

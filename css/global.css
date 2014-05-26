@@ -61,6 +61,10 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .color-white{color:#fff;}
 .color-6{color:#666;}
 .color-3{color:#333;}
+.width150{width:148px!important;}
+.width200{width:198px!important;}
+.width300{width:298px!important;}
+.width400{width:398px!important;}
 /*padding*/
 .nopadding{padding:0!important;}
 .p-top5{padding-top:5px!important;}
@@ -80,17 +84,20 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .font30{font-size:30px!important;}
 .l_th{text-decoration:line-through!important;}
 .txt_hidden{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+span.ti{color:#aaaaaa;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .clearfix{zoom:1}
 /*按钮组*/
-.btn{display: inline-block;padding:2px 10px;text-align: center;border-radius:2px;line-height: 20px;border: 1px solid #ccc;vertical-align:middle;cursor: pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);color: #fff;}
+.btn{display: inline-block;padding:2px 10px;text-align: center;border-radius:2px;line-height: 20px;border: 1px solid #ccc;
+    vertical-align:middle;cursor: pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);color: #fff;text-shadow: 1px 1px 1px #666;}
 .btn-primary{background-color:#0066cc;border: 1px solid #0066cc;border-bottom:#0044AA;}
 .btn-primary:hover{background-color: #004180;}
 .btn-large{padding:2px 10px 6px 10px;font-size:18px;}
-.int{border:1px solid #eae9e9;background: #fff;height: 30px;line-height: 30px;width: 130px;outline: none;}
-
+.int{border:1px solid #eae9e9;background: #fff;height: 26px;line-height: 26px;width: 130px;outline: none;}
+textarea.int{height:auto;vertical-align: top;}
 /*图标组*/
 .Icon{font-size: 0;line-height: 0;background-repeat: no-repeat;display: inline-block;background-image: url("../images/icon.png");position: relative;}
 .Icon-ser{width:33px;height:29px;background-position: 0 0;}
@@ -141,9 +148,16 @@ li:hover .Icon-box{background-position: -166px -12px;}
 .Icon-Glfet,.Icon-Gright{width: 26px;height:26px;display: block;}
 .Icon-Glfet{background-position: -120px -60px;margin-top: 150px;}
 .Icon-Gright{background-position: -120px -90px;margin-top:50px;}
-.Icon-step{width: 23px;height: 20px;background-position: 0 -150px;top: 3px;}
-
-
+.Icon-step,.Icon-quit,.Icon-save,.Icon-back,.Icon-ok,.Icon-an{width: 23px;height: 20px;background-position: 0 -150px;top: 3px;}
+.Icon-back{background-position: 0 -170px;}
+.Icon-save{background-position: -24px -170px;}
+.Icon-quit{background-position: -24px -150px;}
+.Icon-ok{background-position: -48px -150px;width: 24px;}
+.Icon-an{background-position: -44px -170px;}
+.Icon-arrow-t{width: 16px;height:7px;background-position: -40px -129px;}
+.Icon-updoc,.Icon-upimg{width:30px;height:30px;}
+.Icon-updoc{background-position: -75px -150px;}
+.Icon-upimg{background-position: -105px -150px;}
 /*这里是明道大结构的样式2013-8-7*/
 #Container{width:1000px;margin:0 auto;padding-bottom:50px;background-color:#fff;position:relative;color: #404040;overflow: hidden;}
 

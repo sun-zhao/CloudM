@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>第三步</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/Mstyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //伸缩右侧边栏
+            var showBtn =$('#showBtn');
+            var RightBar =showBtn.parents('.RightBar');
+            showBtn.click(function(){
+                $this = $(this);
+                if($this.hasClass('Icon-show')){
+                    $this.removeClass('Icon-show').addClass('Icon-hide');
+                    RightBar.stop().animate({right:4},100);
+                }else{
+                    $this.removeClass('Icon-hide').addClass('Icon-show');
+                    RightBar.stop().animate({right:-46},100);
+                }
+            });
+            //弹出音量控制
+            var voice = $('#voice');
+            var voiceM = $('.voiceM');
+            voice.click(function(){
+                var voiceML =parseInt(voiceM.css("left"));
+                if(voiceML==86){
+                    voiceM.stop().animate({left:-86},200);
+                }else{
+                    voiceM.stop().animate({left:86},200);
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+<div id="Container">
+    <div class="clearfix mart20">
+        <!--左侧会议室列表 begin-->
+        <div class="LeftMain floatleft">
+            <p><img src="images/slogan.jpg" ></p>
+            <!--搜索begin-->
+            <div class="search mart10">
+                <input type="text" placeholder="房间编号/姓名">
+                <a href="#" class="Icon Icon-ser"></a>
+            </div>
+            <!--搜索over-->
+            <div class="MList mart15 p-bt10">
+                <div class="ML-top clearfix">
+                    <span class="floatleft">会议室列表</span>
+                    <a href="#" class="floatright btn btn-primary mart4"><i class="Icon Icon-add"></i> 创建房间</a>
+                </div>
+                <a href="#" class="Icon Icon-prev">11</a>
+                <a href="#" class="Icon Icon-next">22</a>
+                <ul class="RoomList" style="top:-40px;">
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>北研中心月度会议</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>产品设计讨论组</span>
+                            <span class="floatright">（2/60）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>财务报销制度讨论</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                    <li class="current clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>销售经验分享会议</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>财务报销制度讨论</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>月度研发小组报告</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>UI设计标准制定组</span>
+                            <span class="floatright">（2/3）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>北研中心月度会议</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>产品设计讨论组</span>
+                            <span class="floatright">（2/60）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>财务报销制度讨论</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            <i class="Icon Icon-user"></i>
+                            <span>财务报销制度讨论</span>
+                            <span class="floatright">（4/10）</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--左侧会议室列表 over-->
+        <!--右侧begin-->
+        <div class="RightMain floatright">
+            <div class="RightIn">
+                <!--右侧边栏begin-->
+                <div class="RightBar">
+                    <div class="RightBarIn">
+                        <span class="Icon Icon-show" id="showBtn"></span>
+                        <a href="#" title="议题" class="Rbtn"><i class="Icon Icon-write"></i>议题</a>
+                        <a href="#" title="文档" class="Rbtn"><i class="Icon Icon-doc"></i>文档</a>
+                        <a href="#" title="成员" class="Rbtn"><i class="Icon Icon-me"></i>成员</a>
+                        <a href="#" title="设置" class="Rbtn"><i class="Icon Icon-set"></i>设置</a>
+                        <a href="#" title="解散" class="Rbtn"><i class="Icon Icon-del"></i>解散</a>
+                        <span class="block voice mart20 nomar  noborder" style="width: 55px;margin-right: -4px;">
+                            <span class="block voice clearfix">
+                                <a href="javascript:;" class="Icon Icon-v" id="voice" title="音量控制"></a>
+                                <a href="#" class="Icon Icon-m floatright marr5" title="麦克风"></a>
+                            </span>
+                        </span>
+                        <div class="voiceM clearfix">
+                            <a href="#" class="Icon Icon-minus"></a>
+                            <input type="text" maxlength="3">
+                            <a href="#" class="Icon Icon-plus over"></a>
+                        </div>
+                        <a href="#" class="Rbtn loginOut mart20"><i class="Icon Icon-out"></i> 退出</a>
+                    </div>
+                </div>
+                <!--右侧边栏over-->
+                <div class="Frame">
+                    <div class="Mtitle font16">
+                        <i class="Icon Icon-group"></i> 创建会议室
+                        <ul class="step clearfix font12">
+                            <li class="step1 current"><em>邀请同事</em></li>
+                            <li class="step2 current"><em>会议议题</em></li>
+                            <li class="step3 current"><em>更多设置</em></li>
+                        </ul>
+                    </div>
+                    <div class="FrameIn nopadding mart30 p-top40">
+                        <table class="step2" style="width: 100%;">
+                            <tr>
+                                <th>主题</th>
+                                <td><input type="text" class="int width400"></td>
+                            </tr>
+                            <tr>
+                                <th style="vertical-align:top;">议题</th>
+                                <td><textarea rows="8" class="int width400"></textarea></td>
+                            </tr>
+                            <tr>
+                                <th>密码</th>
+                                <td><input type="text" class="int width200"> <span class="ti">用于非公开会议</span></td>
+                            </tr>
+                            <tr>
+                                <th>附件</th>
+                                <td>
+                                    <a href="#" class="upload">上传文件</a>
+                                    <!--附件begin-->
+                                    <div class="updaterDialog_Main aligncenter clearfix" style="display:none;">
+                                        <em class="ti"><img src="images/Tag_UpdaterWhite.png"/></em>
+                                        <a href="#" class="floatleft md-psot-ico" style="display: none;"><img src="images/Post_doc27.png"/><br><em>上传文档</em></a>
+                                        <!--已上传begin-->
+                                        <dl class="alignleft">
+                                            <dd class="clearfix">
+                                                <span class="editbox">
+                                                    <a href="#">编辑</a>
+                                                </span>
+                                                <span class="floatleft marr10"><img src="images/Ico_DocUploadSuc.png"/></span>
+                                                <p class="docname"><span class="txt_hidden">新建文本文档</span>.txt (0.15KB)</p>
+                                                <p>上传成功 <a href="#">换一个</a></p>
+                                            </dd>
+                                            <dd class="clearfix noborder">
+                                                <span class="editbox">
+                                                    <a href="#">确定</a>
+                                                    <a href="#">取消</a>
+                                                </span>
+                                                <span class="floatleft marr10"><img src="images/Ico_DocUploadSuc.png"/></span>
+                                                <p class="docname">
+                                                    <input class="TextBox" id="Rename_FileName" style="width:200px" value="新建文本文档">
+                                                    .txt (0.15KB)
+                                                </p>
+                                                <p>上传成功 <a href="#">换一个</a></p>
+                                            </dd>
+                                        </dl>
+                                        <!--已上传over-->
+                                        <!--进度条begin-->
+                                        <div class="probar mart5">
+                                            <p class="alignleft">上传中...(42.09MB)<span class="marl20">已完成<em>32%</em></span><a href="#" class="marl30">取消上传</a></p>
+                                            <div class="progressbarOut mart10"><div class="progressbar" style="width:50%;"></div></div>
+                                        </div>
+                                        <!--进度条over-->
+                                    </div>
+                                    <!--附件over-->
+                                    <div class="updaterDialog_Main aligncenter clearfix">
+                                        <em class="ti"><img src="images/Tag_UpdaterWhite.png"/></em>
+                                        <ul class="anList">
+                                            <li>2014研发报告4研发报告4研发报告4研发报告4研发报告4研发报告.word ; </li>
+                                            <li>2014研发报告.word ; </li>
+                                            <li>2014研发报告.word ; </li>
+                                            <li>2014研发报告.word ; </li>
+                                            <li>2014研发报告.word ; </li>
+                                            <li>2014研发报告.word ; </li>
+                                            <li>2014研发报告.word ; </li>
+                                            <li>2014研发报告.word ; </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <p class="clearfix mart20 marr30">
+                            <a href="#" class="floatright btn btn-primary btn-large mart10"><i class="Icon Icon-quit"></i> 取 消</a>
+                            <a href="#" class="floatright btn btn-primary btn-large mart10 marr20"><i class="Icon Icon-ok"></i> 创 建</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--右侧over-->
+    </div>
+</div>
+</body>
+</html>

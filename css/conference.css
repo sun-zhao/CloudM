@@ -125,10 +125,11 @@
 .dline{border-bottom: 1px dashed #ccc;position: relative}
 .dline span{background-color:#fff;position:absolute;height:25px;line-height:25px;padding: 0 20px;top:-10px;left:50%;margin-left: -90px;color:#999;}
 .anList li{color:#404040;display: inline-block;float: left;line-height: 30px;width: 155px;text-align: left;margin-left: 5px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
-.broad{width:704px;margin:0 auto;position: relative;}
+.broad,.broadBt{width:704px;margin:0 auto;position: relative;}
 .broadTop,.broadMid{border:1px solid #e3e3e3;height:150px;overflow-y: scroll;padding: 10px;line-height: 18px;}
 .broadMid{border-top:0;background: #fbfbfb;color: #888;}
 .broadMid p:first-child{padding-bottom: 5px;}
+.broadBt textarea{width:692px;}
 .IN{color:#aed2f7;}
 .OUT{color:#f5a0a0;}
 .RoomTime{position:absolute;right:30px;bottom:5px;}

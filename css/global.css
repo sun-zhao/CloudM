@@ -169,6 +169,7 @@ a:hover .Icon-del{background-position: -100px -120px;}
 .Icon-doc-m{background-position: -120px -123px;}
 .Icon-me-m{background-position: -140px -123px;}
 .Icon-set-m{background-position: -163px -123px;}
+.Icon-edit{width:12px;height:12px;background-position: -179px -90px;}
 /*这里是明道大结构的样式2013-8-7*/
 #Container{width:1000px;margin:0 auto;padding-bottom:50px;background-color:#fff;position:relative;color: #404040;overflow: hidden;padding-top: 25px;}
 

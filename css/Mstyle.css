@@ -55,8 +55,10 @@ li:hover .UserBox{background: #0066cc;border-color: #0066cc;color: #fff;}
 .Mnav li a:hover,.Mnav li.current a{background: #e5e5e5;}
 .MLisT{width: 100%;}
 .MLisT th,.MLisT td{padding-left:20px;}
+
 .MLisT thead th{height: 30px;background: #f8f8f7;color: #000;}
 .MLisT tbody td{height: 30px;border:10px solid #fff;border-width:10px 0;position: relative;overflow: hidden;}
+.MLisT td.block{height:45px;line-height:45px;border:0;}
 .MLisT tbody tr:hover td{background: #1f7cba;color: #fff;}
 .MakeBtn{position: absolute;background: #f8f8f8;top:0;right:-72px;height: 24px;padding: 6px 10px 0 10px;transition:0.3s;}
 .MakeBtn .Icon-begin{top:-1px;margin-left: 10px;}

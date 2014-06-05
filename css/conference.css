@@ -221,7 +221,7 @@ a.close:hover{text-decoration: none;}
 .UserTab li .UserImg,.UserTab li .UserBox{border-radius:6px;height: 40px;}
 .RightBarB-in .UserTab li{background: none;}
 .RightBarB-in .UserTab li .UserImg{height: 40px;padding:0 0 0 5px;}
-.RightBarB-in .UserTab li .UserBox  .BtnItems{background: none;height: 40px;width: 140px;}
+.RightBarB-in .UserTab li .UserBox  .BtnItems{background: none;height: 40px;width: 150px;}
 .RightBarB-in .UserTab li .UserBox  .BtnItems a{margin-top:5px;line-height: 30px;}
 .RightBarB-in .UserTab li .UserBox .BtnItems a .Icon{margin-right:2px;}
 .RightBarB-in .UserTab li .UserBox .BtnItems a.online{color: #2cd62c;}
@@ -234,8 +234,24 @@ a.close:hover{text-decoration: none;}
 .RightBarB-in .UserTab li:nth-child(2n){background: #f8f8f7;}
 .RightBarB-in .UserTab li .UserBox .BtnItems a.Kout{color:#999;}
 
+.md-attachment{position:relative;z-index: 10;margin:5px 0 0 5px;}
+.all-att{position: absolute;padding:5px;background: #fff;width:225px;z-index: 10;*border:2px solid #ccc;
+    border:1px solid #ccc;box-shadow:0 0 8px #ccc;}
+.all-att li{margin:6px 0;line-height: 20px;}
+.all-att li span.txt_hidden{width:150px;display: inline-block;float: left;}
+.all-att li .docimg{display: inline-block; position: relative;top:2px;float: left;}
+.all-att li .docimg img{width:20px;height:20px;vertical-align: middle;margin-right:5px;}
+.all-att li a{margin-left: 10px;}
+.md-mi-attachment{display:inline-block;width:16px;height:18px;font-size: 0;line-height: 0;
+    background: url("../images/md-p-ico.png");background-position:-1px -181px;vertical-align: middle;top:-2px;left:-4px;position: relative;}
+.attachment-list .all-att{position: relative;display: block;width: auto;box-shadow:none;}
+.attachment-list .all-att li{margin:8px 10px;float: left;width: 220px;}
+.attachment-list .all-att li a{margin:0 10px 0 0;float: left;}
+.attachment-list .all-att li p.txt_hidden{width:160px;float: none;}
+.attachment-list .all-att li span.graytext{color: #a0a0a0;}
 
-
+.attachment-list .md-attachment{margin:0;}
+.attachment-list .all-att li .docimg img{width: 32px;height:32px;}
 
 
 

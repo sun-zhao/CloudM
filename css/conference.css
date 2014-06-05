@@ -65,11 +65,12 @@
 .MLisT{width: 100%;}
 .MLisT th,.MLisT td{padding-left:20px;}
 .MLisT thead th{height: 30px;background: #f8f8f7;color: #000;}
-.MLisT tbody td{height: 30px;border:10px solid #fff;border-width:10px 0;position: relative;overflow: hidden;}
+.MLisT tbody td{height: 30px;border:10px solid #fff;border-width:10px 0;overflow: hidden;}
 .MLisT tbody tr:hover td{background: #1f7cba;color: #fff;}
+.MLisT tbody td div.block{position: relative;height: 30px;line-height: 30px;}
 .MakeBtn{position: absolute;background: #f8f8f8;top:0;right:-72px;height: 24px;padding: 6px 10px 0 10px;transition:0.3s;}
 .MakeBtn .Icon-begin{top:-1px;margin-left: 10px;}
-.MLisT tbody tr:hover .MakeBtn{right: 0;transition:0.3s;}
+.MLisT tbody tr:hover div .MakeBtn{right: 0;transition:0.3s;}
 /*page*/
 .Mpage a,.Mpage span{line-height: 22px;height:22px;margin-left:-4px;border-style:solid;border-width:1px 0 1px 1px;display:inline-table;
     padding:0 7px;color:#1f7cba;border-color: #1f7cba;}
@@ -217,5 +218,30 @@ a.close:hover{text-decoration: none;}
 .color8 em{background-color:#8000ff;}
 .color9 em{background-color:#cccc00;}
 .Broad{height:460px;border:1px solid #eee;box-shadow: 2px 1px 2px 2px #bcbcbc;}
+.UserTab li .UserImg,.UserTab li .UserBox{border-radius:6px;height: 40px;}
+.RightBarB-in .UserTab li{background: none;}
+.RightBarB-in .UserTab li .UserImg{height: 40px;padding:0 0 0 5px;}
+.RightBarB-in .UserTab li .UserBox  .BtnItems{background: none;height: 40px;width: 140px;}
+.RightBarB-in .UserTab li .UserBox  .BtnItems a{margin-top:5px;line-height: 30px;}
+.RightBarB-in .UserTab li .UserBox .BtnItems a .Icon{margin-right:2px;}
+.RightBarB-in .UserTab li .UserBox .BtnItems a.online{color: #2cd62c;}
+.RightBarB-in .UserTab li .UserBox .BtnItems a.wait{color: #ffb20e;}
+.RightBarB-in .UserTab li .UserBox .BtnItems a.cut{color: #aaa;}
+.RightBarB-in .UserTab li .UserBox p{padding:0 0 0 10px;}
+.RightBarB-in .UserTab li .UserBox p span{display: inline-block;height:40px;line-height:44px; float: left;}
+.RightBarB-in .UserTab li .UserBox p span.Departmen,.RightBarB-in .UserTab li .UserBox p span.UserName{top:0;}
+.RightBarB-in .UserTab li .UserBox .BtnItems a.no-Voice, .RightBarB-in .UserTab li .UserBox .BtnItems a.no-Mic{margin-top:13px;}
+.RightBarB-in .UserTab li:nth-child(2n){background: #f8f8f7;}
+.RightBarB-in .UserTab li .UserBox .BtnItems a.Kout{color:#999;}
+
+
+
+
+
+
+
+
+
+
 
 

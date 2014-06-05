@@ -11,17 +11,23 @@
 .search-mini{width:223px;}
 .search-mini input{width: 180px;}
 .SelectItem .btn-primary{padding: 5px 20px 5px 10px;background: #1f7cba;border:0;}
-.SelectItem ul{width:150px;height:180px;overflow-y: scroll;border:1px solid #c2c1c1;border-radius:3px;
+.SelectItem ul,.search ul{width:150px;height:180px;overflow-y: scroll;border:1px solid #c2c1c1;border-radius:3px;
     box-shadow: -2px 5px 10px #d0d0d0;padding: 5px 0;position: absolute;top:32px;left:0;display: none;background: #fff;z-index: 20;}
-.SelectItem ul li{color:#c2c1c1;height:26px;line-height: 26px;padding-left: 10px;}
-.SelectItem ul li:hover{color:#fff;background:#2369b2;cursor: pointer;}
+.SelectItem ul li,.search ul li{color:#c2c1c1;height:26px;line-height: 26px;padding-left: 10px;}
+.SelectItem ul li:hover,.search ul li:hover{color:#fff;background:#2369b2;cursor: pointer;}
 .SelectItem ul li.current{color:#fff;background:#2369b2;cursor: pointer;}
-.SelectItem.current ul{display:block;}
+.SelectItem.current ul,.search.current ul{display:block;}
+.search ul{width:200px;}
+.search ul li{margin:0 5px;border-bottom:1px dashed #e7e7e7;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;width:160px;}
+.search ul li:hover,.search ul li.current{background: #ebebeb;color: #666;}
+.search ul li span{padding-right:10px;}
+.search ul li .name{color:#0066cc;}
 .ItemL{width:270px;height:350px;border:1px solid #aad0f7;position: relative;padding: 30px 15px;}
 .ItemR{border-color: #a4a4a4;}
 .ItemTitle{padding:10px 15px;background: #fff;position: absolute;top:-17px;left:20px;color: #1f7cba;}
 .ItemR .ItemTitle{color:#404040;}
-.UserImg,.UserImg img{width:50px;height:50px;}
+.UserImg{display:inline-block;height:43px;border:1px solid #eaeaea;border-right:0;padding:5px 5px 0 5px;}
+.UserImg img{width:40px;height:40px;border-radius:50px;}
 .UserBox{height:48px;border:1px solid #eaeaea;border-left:0;width: 190px;padding-left: 5px;}
 .UserBox p{padding: 7px 10px 0 10px;}
 .ItemL li:hover .UserBox{background: #0066cc;border-color: #0066cc;color: #fff;}
@@ -138,12 +144,16 @@
 .Roomp2{color:#f5a4a4;}
 .RightBarB{width:641px;position: absolute;height:644px;z-index: 100;}
 .RightBarB-in{width:641px;height:644px;position: relative;background: url("../images/r-pop.png") repeat-y;}
-.RightBarB-in a.Icon-off{position: absolute;top:10px;right:10px;}
+.RightBarB-in a.Icon-off{position: absolute;top:10px;right:10px;z-index: 30;}
+.RightBarB-in .Mtitle{margin:0 10px 0 20px;}
+.RightBarB-in .Mtitle .Icon-broad{position: relative;height:22px;top:3px;}
+.mainIn{padding:10px 15px 0 25px;}
 .TopTime{padding-top:30px;line-height: 30px;color:#a8adb6;}
 .RightBarB-in .UserList{margin:0 20px 0 30px;}
 .RightBarB-in .UserList li .UserBox{width: auto;}
 .RightBarB-in .UserList li{background:#f8f8f7;}
-.RightBarB-in .UserList li .UserBox{padding-left:60px;position: relative;}
+.RightBarB-in .UserList li .UserImg img{width:30px;height:30px;margin-top:5px;}
+.RightBarB-in .UserList li .UserBox{padding-left:40px;position: relative;}
 .RightBarB-in .UserList li .UserBox:hover{color:#404040;background: none;border-color:#eaeaea;}
 .RightBarB-in .UserList li .UserBox p{padding-top:18px;}
 .RightBarB-in .UserList li .UserBox .Departmen{display:inline-block;width:120px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;top:2px;position: relative;}
@@ -185,19 +195,27 @@ a.close:hover{text-decoration: none;}
 .has-warning label.control-label{color: #c09853;}
 .has-success label.control-label{color: #468847;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*白板*/
+.BroadSet{background:#f7f7f7;width:100%;border:1px solid #e7e7e7;}
+.BroadSet th{padding:0 10px;width:30px;}
+.BroadSet td{border-right:1px dashed #e7e7e7;padding-right:10px;}
+.BroadSet td a{color:#666;display: inline-block;margin:2px 0;}
+.CLine a{width:90px;padding:5px 10px;border:2px solid #f7f7f7;font-size: 0;line-height: 0;}
+.CLine a em,.color em{display: inline-block;width:90px;font-size: 0;line-height: 0;border-bottom:2px solid #000;}
+.CLine a.two em{border-bottom-width:6px;}
+.CLine a.three em{border-bottom-width:8px;}
+.CLine a:hover,.CLine a.current,.color:hover,.color.current,.color.current{border-color:#0066cc;}
+.color{width:18px;height:18px;font-size: 0;line-height: 0;border:2px solid #c7c7c7;}
+.color em{width:16px;height:16px;border:1px solid #edf4fa;}
+.color1 em{background-color:#000;}
+.color2 em{background-color:#ff0000;}
+.color3 em{background-color:#80ff00;}
+.color4 em{background-color:#00ffff;}
+.color5 em{background-color:#808080;}
+.color6 em{background-color:#ff8000;}
+.color7 em{background-color:#408080;}
+.color8 em{background-color:#8000ff;}
+.color9 em{background-color:#cccc00;}
+.Broad{height:460px;border:1px solid #eee;box-shadow: 2px 1px 2px 2px #bcbcbc;}
 
 

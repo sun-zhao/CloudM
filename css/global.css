@@ -25,7 +25,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .aligncenter{text-align:center;}
 .alignright{text-align:right;}
 .alignleft{text-align:left;}
-.block{display:block;}
+.block{display:block!important;}
 .inlineblock{display:inline!important;}
 .inblock{display:inline-block!important;}
 .nobg{background:none!important;}
@@ -114,11 +114,12 @@ textarea.int{height:auto;vertical-align: top;}
 .Icon-begin:hover{background-position: -35px -20px;}
 .Icon-show,.Icon-hide{width:13px;height:42px;background-position: -80px -105px;cursor: pointer;}
 .Icon-hide{background-position: -61px -105px;}
-.Icon-write,.Icon-doc,.Icon-me,.Icon-set,.Icon-del{width:20px;height: 30px;}
+.Icon-write,.Icon-doc,.Icon-me,.Icon-set,.Icon-del,.Icon-broad{width:20px;height: 30px;}
 .Icon-write{background-position: -40px -45px;}
 .Icon-doc{background-position: -60px -45px;}
 .Icon-me{background-position: -80px -45px;}
 .Icon-set{background-position: -40px -75px;}
+.Icon-broad{background-position: -140px -153px;}
 .Icon-del{background-position: -60px -75px;}
 .Icon-v,.Icon-m{width: 15px;height: 28px;}
 .Icon-v{background-position: -83px -75px;}
@@ -130,6 +131,7 @@ a:hover .Icon-doc{background-position: -100px -30px;}
 a:hover .Icon-me{background-position: -100px -60px;}
 a:hover .Icon-set{background-position: -100px -90px;}
 a:hover .Icon-del{background-position: -100px -120px;}
+a:hover .Icon-broad{background-position: -160px -153px;}
 .Icon-group{width:18px;height:17px;background-position: -18px -45px;top:2px;}
 .Icon-arrow{width:9px;height:5px;background-position: -80px 0;top:-2px;right:-10px;}
 .current .Icon-arrow{background-position: -80px -6px;top:-3px;}
@@ -165,11 +167,18 @@ a:hover .Icon-del{background-position: -100px -120px;}
 .no-voice,.no-mic{width:26px;height:21px;background-position:-143px -39px;top:-2px;left: -2px;}
 .no-mic{background-position: -166px -39px;}
 .Icon-play{width:32px;height:32px;background-position: -148px -60px;vertical-align: -8px;}
-.Icon-write-m,.Icon-doc-m,.Icon-me-m,.Icon-set-m{width: 20px;height:23px;background-position: -153px -97px;top:8px;}
+.Icon-write-m,.Icon-doc-m,.Icon-me-m,.Icon-set-m,.Icon-broad-m{width: 20px;height:23px;background-position: -153px -97px;top:8px;}
 .Icon-doc-m{background-position: -120px -123px;}
 .Icon-me-m{background-position: -140px -123px;}
 .Icon-set-m{background-position: -163px -123px;}
 .Icon-edit{width:12px;height:12px;background-position: -179px -90px;}
+.Icon-broad-m{background-position: -140px -180px;}
+.Icon-rstep,.Icon-clear{width:16px;height:17px;background-position: -81px -185px;top: 3px;}
+.Icon-clear{background-position: -101px -184px;}
+.Icon-pencil,.Icon-eraser{width:18px;height:18px;background-position:-120px -183px;border:2px solid #f7f7f7;}
+.Icon-eraser{background-position:-162px -183px;}
+.Icon-pencil:hover,.Icon-eraser:hover,.Icon-pencil.current,.Icon-eraser.current{border:2px solid #0066cc;}
+
 /*这里是明道大结构的样式2013-8-7*/
 #Container{width:1000px;margin:0 auto;padding-bottom:50px;background-color:#fff;position:relative;color: #404040;overflow: hidden;padding-top: 25px;}
 

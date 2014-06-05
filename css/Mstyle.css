@@ -48,7 +48,7 @@ li:hover .UserBox{background: #0066cc;border-color: #0066cc;color: #fff;}
 .MList:hover .Icon-next{bottom:0;}
 .Frame{}
 .FrameIn{padding:30px 30px;}
-.Mtitle{color:#2483cb;border-bottom: 2px solid #1f7cba;line-height: 30px;position: relative;}
+.Mtitle{color:#2483cb;border-bottom: 2px solid #1f7cba;line-height: 30px;position: relative;z-index: 10;}
 .Mtitle .Icon-time{top:2px;}
 .Mnav li{float: left;margin-right: 5px;}
 .Mnav li a{display: block;line-height:28px;height: 28px;padding: 0 20px;color: #6e6e6e;border-radius: 3px;}
@@ -71,13 +71,13 @@ li:hover .UserBox{background: #0066cc;border-color: #0066cc;color: #fff;}
 .RightBar{width:50px;height:480px;background: #f7f7f7;border:1px solid #e9e9e9;position:absolute;right:-46px;top:106px;border-right-width: 0;z-index: 30;}
 .RightBarIn{width:100%;height: 100%;position: relative;}
 .RightBarIn .Icon-show,.RightBarIn .Icon-hide{position: absolute;top:50%;margin-top:-21px;left:-13px;}
-.RightBarIn a.Rbtn{display: block;width: 45px;margin: 25px auto 0 auto;text-align: center;color: #2483cb;}
+.RightBarIn a.Rbtn{display: block;width: 45px;margin: 13px auto 0 auto;text-align: center;color: #2483cb;}
 .RightBarIn a.Rbtn:hover{color:#034786;}
 .RightBarIn a.Rbtn .Icon{display: block;margin: 2px auto;}
 .RightBarIn .voice{border:1px solid #e2dede;border-width:1px 0;margin:0 5px;background: #f7f7f7;z-index: 40;position: relative;}
 .RightBarIn a.loginOut{color:#f34559;}
 .RightBarIn a.loginOut .Icon{right:-2px;top:-4px;}
-.RightBarIn .voiceM{width:82px;height:33px;background: url("../images/m-bg.png");position: absolute;bottom:97px;left:86px;padding-left: 3px;z-index: 0;}
+.RightBarIn .voiceM{width:82px;height:33px;background: url("../images/m-bg.png");position: absolute;bottom:86px;left:86px;padding-left: 3px;z-index: 0;}
 .RightBarIn .voiceM input{border:0;width:30px;text-align: center;line-height: 20px;height:20px;margin-top:2px;background: none;}
 .RightBarIn .voiceM .Icon{top:7px;}
 .RightBarIn .voice .no-mic{position: absolute;left:20px;top:5px;}
@@ -130,7 +130,7 @@ li:hover .UserBox{background: #0066cc;border-color: #0066cc;color: #fff;}
 .Roomp2{color:#f5a4a4;}
 .RightBarB{width:641px;position: absolute;height:644px;z-index: 100;}
 .RightBarB-in{width:641px;height:644px;position: relative;background: url("../images/r-pop.png") repeat-y;}
-.RightBarB-in a.Icon-off{position: absolute;top:10px;right:10px;}
+.RightBarB-in a.Icon-off{position: absolute;top:10px;right:10px;z-index: 200;}
 .TopTime{padding-top:30px;line-height: 30px;color:#a8adb6;}
 .RightBarB-in .UserList{margin:0 20px 0 30px;}
 .RightBarB-in .UserList li .UserBox{width: auto;}

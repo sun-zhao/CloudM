@@ -38,7 +38,14 @@
 .ItemR li.current .UserBox{background:#dd6879;border-color: #dd6879;}
 .LeftRight{display:block;width: 26px;}
 .Mbottom{width:513px;height:58px;border:1px solid #e8e8e8;background: #f7f7f7;}
-
+.mainIn  .ItemL{width: auto;height: auto;}
+.mainIn  .ItemL .UserList li{background:none;cursor: move;position: relative;}
+.mainIn  .ItemL .UserList li .number{width:20px;height:20px;margin-top:10px;border-radius:50px;background: #0066cc;display: inline-block;color: #fff;text-align: center;line-height: 20px;}
+.mainIn  .ItemL .UserList li .UserImg{border:0;padding-top:0;margin-right:20px;}
+.mainIn  .ItemL .UserList li .UserBox{padding:0;margin-left: 30px;border:1px solid #eaeaea;height:38px;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p{padding-top:11px;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p .UserName{width:120px;margin-right: 10px;}
+.mainIn  .ItemL .UserList li:hover .UserBox,.mainIn  .ItemL .UserList li.current .UserBox{background: #0066cc;color: #fff;}
 
 
 .MList{border:1px solid #e2dede;background: #f7f7f7;position: relative;overflow: hidden;height: 554px;}
@@ -81,17 +88,21 @@
 .RightBar{width:50px;height:480px;background: #f7f7f7;border:1px solid #e9e9e9;position:absolute;right:-46px;top:106px;border-right-width: 0;z-index: 30;}
 .RightBarIn{width:100%;height: 100%;position: relative;}
 .RightBarIn .Icon-show,.RightBarIn .Icon-hide{position: absolute;top:50%;margin-top:-21px;left:-13px;}
-.RightBarIn a.Rbtn{display: block;width: 45px;margin: 25px auto 0 auto;text-align: center;color: #2483cb;}
+.RightBarIn a.Rbtn{display: block;width: 45px;margin:10px auto 0 auto;text-align: center;color: #2483cb;}
 .RightBarIn a.Rbtn:hover{color:#034786;}
 .RightBarIn a.Rbtn .Icon{display: block;margin: 2px auto;}
 .RightBarIn .voice{border:1px solid #e2dede;border-width:1px 0;margin:0 5px;background: #f7f7f7;z-index: 40;position: relative;}
 .RightBarIn a.loginOut{color:#f34559;}
 .RightBarIn a.loginOut .Icon{right:-2px;top:-4px;}
-.RightBarIn .voiceM{width:82px;height:33px;background: url("../images/m-bg.png");position: absolute;bottom:97px;left:86px;padding-left: 3px;z-index: 0;}
+.RightBarIn .voiceM{width:82px;height:33px;background: url("../images/m-bg.png");position: absolute;bottom:99px;left:86px;padding-left: 3px;z-index: 0;}
 .RightBarIn .voiceM input{border:0;width:30px;text-align: center;line-height: 20px;height:20px;margin-top:2px;background: none;}
 .RightBarIn .voiceM .Icon{top:7px;}
 .RightBarIn .voice .no-mic{position: absolute;left:20px;top:5px;}
 .voice .Icon{background-color: #f7f7f7;}
+.Micphone{width:205px;height:50px;background:url("../images/m-bg2.png");position:absolute;left:209px;bottom:92px;}
+.Micphone p{padding:8px 0 0 15px;}
+
+
 .step{position: absolute;right: -3px;top:20px;background: #fff;padding-right: 50px;}
 .step li{width:76px;height:22px;color:#848484;float: left;line-height:65px;background-repeat: no-repeat;}
 .step li.current{color:#2674d0;}
@@ -134,9 +145,11 @@
 .anList li{color:#404040;display: inline-block;float: left;line-height: 30px;width: 155px;text-align: left;margin-left: 5px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
 .broad,.broadBt{width:704px;margin:0 auto;position: relative;}
 .broadTop,.broadMid{border:1px solid #e3e3e3;height:150px;overflow-y: scroll;padding: 10px;line-height: 18px;}
-.broadMid{border-top:0;background: #fbfbfb;color: #888;}
+.broadMid{border-top:0;background: #fbfbfb;color: #888;height:99px;}
 .broadMid p:first-child{padding-bottom: 5px;}
 .broadBt textarea{width:692px;}
+.broadBTop{height:40px;overflow: hidden;border-top:0;}
+.broadBTop p{line-height: 20px;}
 .IN{color:#aed2f7;}
 .OUT{color:#f5a0a0;}
 .RoomTime{position:absolute;right:30px;bottom:5px;}
@@ -252,11 +265,15 @@ a.close:hover{text-decoration: none;}
 
 .attachment-list .md-attachment{margin:0;}
 .attachment-list .all-att li .docimg img{width: 32px;height:32px;}
-
-
-
-
-
+.Grab{border-bottom:1px solid #e2dede;margin:0 5px;}
+.Grab a{display: inline-block;width:40px;height:20px;line-height: 20px;text-align: center;color:#fff;border-radius:2px;margin:5px 0;}
+.Grab a.GrabBtn{background: #0066cc;}
+.Grab a.GrabBtn:hover{background: #004180;}
+.Grab a.GrabBtn.grey{background:#aaa;cursor:default;}
+.Grab a.GrabBtnOver{background: #3eb93b;}
+.Grab a.GrabBtnOver:hover{background: #36a534;}
+.stop,.close2,.closerob{color: #c63d4d;}
+.stop:hover,.close2:hover,.closerob:hover{color: #9d2432;}
 
 
 

@@ -63,6 +63,8 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .color-white{color:#fff;}
 .color-6{color:#666;}
 .color-3{color:#333;}
+.color-1f7cba{color:#1f7cba;}
+.color-aed2f7{color:#aed2f7;}
 .width80{width:78px!important;}
 .width100{width:98px!important;}
 .width150{width:148px!important;}
@@ -71,6 +73,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .width400{width:398px!important;}
 /*padding*/
 .nopadding{padding:0!important;}
+.nopad-top{padding-top:0!important;}
 .p-top5{padding-top:5px!important;}
 .p-top10{padding-top:10px!important;}
 .p-top40{padding-top:40px!important;}
@@ -174,8 +177,9 @@ a:hover .Icon-broad{background-position: -160px -153px;}
 .Icon-doc-m{background-position: -120px -123px;}
 .Icon-me-m{background-position: -140px -123px;}
 .Icon-set-m{background-position: -163px -123px;}
+.Mtitle .Icon-set-m{background-position: -195px -129px;}
 .Icon-edit{width:12px;height:12px;background-position: -179px -90px;}
-.Icon-broad-m{background-position: -140px -180px;}
+.Icon-broad-m{background-position: -140px -179px;}
 .Icon-rstep,.Icon-clear{width:16px;height:17px;background-position: -81px -185px;top: 3px;}
 .Icon-clear{background-position: -101px -184px;}
 .Icon-pencil,.Icon-eraser{width:18px;height:18px;background-position:-120px -183px;border:2px solid #f7f7f7;}
@@ -187,6 +191,21 @@ a:hover .Icon-broad{background-position: -160px -153px;}
 .Icon-cut{background-position:-195px -40px;}
 .Icon-call,.Icon-men{width:20px;height:20px;background-position:-195px -63px;top:-2px;}
 .Icon-men{background-position:-195px -84px;}
+.IconSet{display:inline-block;line-height: 25px;color: #0066cc;margin:0 10px;}
+.IconSet i{display: block;margin: 0 auto;width:32px;height:32px;}
+a:hover .Icon-play{background-position:0 -202px;}
+.Icon-stop{background-position:-35px -202px;}
+a:hover .Icon-stop{background-position:-69px -202px;}
+.Icon-open{background-position:-103px -236px;}
+a:hover .Icon-open{background-position:-103px -202px;}
+.Icon-close2{background-position:-137px -202px;}
+a:hover .Icon-close2{background-position:-171px -202px;}
+.Icon-rob{background-position:-69px -236px;}
+a:hover .Icon-rob{background-position:0 -236px;}
+.Icon-closerob{background-position:-34px -236px;}
+a:hover .Icon-closerob{background-position:-138px -236px;}
+.Icon-up,.Icon-down{width:16px;height:20px;background-position: -195px -153px;position: absolute;right:35px;top:12px;}
+.Icon-down{background-position: -214px -153px;right:10px;}
 /*这里是明道大结构的样式2013-8-7*/
 #Container{width:1000px;margin:0 auto;padding-bottom:50px;background-color:#fff;position:relative;color: #404040;overflow: hidden;padding-top: 25px;}
 

@@ -206,10 +206,10 @@ a:hover .Icon-rob{background-position:0 -236px;}
 a:hover .Icon-closerob{background-position:-138px -236px;}
 .Icon-up,.Icon-down{width:16px;height:20px;background-position: -195px -153px;position: absolute;right:35px;top:12px;}
 .Icon-down{background-position: -214px -153px;right:10px;}
-.prev,.next{width:28px;height:28px;background-position: -180px -241px;position:absolute;top:0;z-index: 50;display: none;}
-.prev{right:85px;}
+.prev,.next{width:28px;height:28px;background-position: -180px -241px;position:absolute;top:50%;margin-top:-14px;z-index: 50;display: none;}
+.prev{left:0;}
 .prev:hover{background-position: -211px -241px;}
-.next{background-position: -210px -183px;right:45px;}
+.next{background-position: -210px -183px;right:0;}
 .next:hover{background-position: -210px -212px;}
 .FrameIn:hover .prev,.FrameIn:hover .next{display: block;}
 /*这里是明道大结构的样式2013-8-7*/

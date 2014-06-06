@@ -63,7 +63,7 @@
 .MList:hover .Icon-prev{top:34px;}
 .MList:hover .Icon-next{bottom:0;}
 .Frame{padding:0 5px;}
-.FrameIn{padding:30px 30px;}
+.FrameIn{padding:30px 30px;position: relative;}
 .Mtitle{color:#2483cb;border-bottom: 2px solid #1f7cba;line-height: 30px;position: relative;}
 .Mtitle .Icon-time{top:2px;}
 .Mnav li{float: left;margin-right: 5px;}
@@ -85,7 +85,7 @@
 .Mpage a.md-p-no{color:#D0D0D0;}
 .Mpage a.md-p-no:hover{background: none;color:#D0D0D0;cursor:inherit;}
 .Mpage a.block{border-width:1px;margin:0 auto;cursor:pointer;}
-.RightBar{width:50px;height:480px;background: #f7f7f7;border:1px solid #e9e9e9;position:absolute;right:-46px;top:106px;border-right-width: 0;z-index: 30;}
+.RightBar{width:50px;height:480px;background: #f7f7f7;border:1px solid #e9e9e9;position:absolute;right:-46px;top:106px;border-right-width: 0;z-index:60;}
 .RightBarIn{width:100%;height: 100%;position: relative;}
 .RightBarIn .Icon-show,.RightBarIn .Icon-hide{position: absolute;top:50%;margin-top:-21px;left:-13px;}
 .RightBarIn a.Rbtn{display: block;width: 45px;margin:10px auto 0 auto;text-align: center;color: #2483cb;}
@@ -274,7 +274,8 @@ a.close:hover{text-decoration: none;}
 .Grab a.GrabBtnOver:hover{background: #36a534;}
 .stop,.close2,.closerob{color: #c63d4d;}
 .stop:hover,.close2:hover,.closerob:hover{color: #9d2432;}
-
-
+.STEPBox{width:9999px;height:550px;position: absolute;}
+.STEP{height: 550px;width:704px;float: left;}
+.STEP2,.STEP3{height:510px;}
 
 

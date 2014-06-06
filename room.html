@@ -12,6 +12,8 @@
             var showBtn =$('#showBtn');
             var RightBar =showBtn.parents('.RightBar');
             showBtn.click(function(){
+                voiceM.stop().animate({left:86},200);
+                Micphone.stop().animate({left:209},200);
                 $this = $(this);
                 if($this.hasClass('Icon-show')){
                     $this.removeClass('Icon-show').addClass('Icon-hide');
@@ -36,15 +38,15 @@
             //弹出发言设置
             var MicP =$("#MicP");
             var Micphone = $(".Micphone");
-                MicP.click(function(){
-                    var MicphoneL =parseInt(Micphone.css("left"));
-                    voiceM.stop().animate({left:86},200);
-                    if(MicphoneL==209){
-                        Micphone.stop().animate({left:-209},200);
-                    }else{
-                        Micphone.stop().animate({left:209},200);
-                    }
-                });
+            MicP.click(function(){
+                var MicphoneL =parseInt(Micphone.css("left"));
+                voiceM.stop().animate({left:86},200);
+                if(MicphoneL==209){
+                    Micphone.stop().animate({left:-209},200);
+                }else{
+                    Micphone.stop().animate({left:209},200);
+                }
+            });
         })
     </script>
 </head>

@@ -48,17 +48,21 @@
                 }
             });
             //点击切换下一步
-            var prev = $('.prev');
-            var next = $('.next');
             var STEPBox=$('.STEPBox');
+            var STEPBoxL = parseInt(STEPBox.css("left"));
+            if(STEPBoxL == 0){$('.prev').hide();}
             $('.prev ,.next').click(function(){
                 $this = $(this);
                 var STEPBoxL = parseInt(STEPBox.css("left"));
                 if($this.hasClass('prev')){
+                    if(STEPBoxL == -704){$('.prev').hide();}
+                    $('.next').show();
                     if(STEPBoxL == 0){
                         $('.STEPBox').stop();
                     }else{$('.STEPBox').stop().animate({left:STEPBoxL+704},200);}
                 }else{
+                    $('.prev').show();
+                    if(STEPBoxL == -704){$('.next').hide();}
                     if(STEPBoxL == -1408){
                         $('.STEPBox').stop();
                     }else{$('.STEPBox').stop().animate({left:STEPBoxL-704},200);}
@@ -212,6 +216,8 @@
                 </div>
                 <!--右侧边栏over-->
                 <div class="Frame">
+                        <a href="javascript:;" class="Icon prev"></a>
+                        <a href="javascript:;" class="Icon next"></a>
                     <div class="Mtitle font16">
                         <i class="Icon Icon-group"></i> 创建会议室
                         <ul class="step clearfix font12">
@@ -221,8 +227,6 @@
                         </ul>
                     </div>
                     <div class="FrameIn nopadding mart30 clearfix" style="height: 550px;overflow: hidden;">
-                        <a href="javascript:;" class="Icon prev"></a>
-                        <a href="javascript:;" class="Icon next"></a>
                         <div class="STEPBox clearfix" style="left:0;">
                             <div class="STEP STEP1">
                                 <div class="clearfix">

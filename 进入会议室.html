@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>会议成员</title>
+    <title>进入会议室</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/conference.css">
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -12,6 +12,8 @@
             var showBtn =$('#showBtn');
             var RightBar =showBtn.parents('.RightBar');
             showBtn.click(function(){
+                voiceM.stop().animate({left:86},200);
+                Micphone.stop().animate({left:209},200);
                 $this = $(this);
                 if($this.hasClass('Icon-show')){
                     $this.removeClass('Icon-show').addClass('Icon-hide');
@@ -26,10 +28,23 @@
             var voiceM = $('.voiceM');
             voice.click(function(){
                 var voiceML =parseInt(voiceM.css("left"));
+                Micphone.stop().animate({left:209},200);
                 if(voiceML==86){
                     voiceM.stop().animate({left:-86},200);
                 }else{
                     voiceM.stop().animate({left:86},200);
+                }
+            });
+            //弹出发言设置
+            var MicP =$("#MicP");
+            var Micphone = $(".Micphone");
+            MicP.click(function(){
+                var MicphoneL =parseInt(Micphone.css("left"));
+                voiceM.stop().animate({left:86},200);
+                if(MicphoneL==209){
+                    Micphone.stop().animate({left:-209},200);
+                }else{
+                    Micphone.stop().animate({left:209},200);
                 }
             });
         })
@@ -147,24 +162,40 @@
                         <a href="#" title="文档" class="Rbtn"><i class="Icon Icon-doc"></i>文档</a>
                         <a href="#" title="成员" class="Rbtn"><i class="Icon Icon-me"></i>成员</a>
                         <a href="#" title="设置" class="Rbtn"><i class="Icon Icon-set"></i>设置</a>
+                        <a href="#" title="白板" class="Rbtn"><i class="Icon Icon-broad"></i>白板</a>
                         <a href="#" title="解散" class="Rbtn"><i class="Icon Icon-del"></i>解散</a>
                         <span class="block voice mart20 nomar  noborder" style="width: 55px;margin-right: -4px;">
                             <span class="block voice clearfix">
                                 <a href="javascript:;" class="Icon Icon-v" id="voice" title="音量控制"></a>
-                                <a href="#" class="Icon Icon-m floatright marr5" title="麦克风"></a><!--静音时把Icon-m替换为no-mic-->
+                                <a href="javascript:;" class="Icon Icon-m floatright marr5" id="MicP" title="麦克风"></a><!--静音时把Icon-m替换为no-mic-->
                             </span>
                         </span>
+                        <!--调节音量begin-->
                         <div class="voiceM clearfix">
                             <a href="#" class="Icon Icon-minus"></a>
                             <input type="text" maxlength="3">
                             <a href="#" class="Icon Icon-plus over"></a>
                         </div>
-                        <a href="#" class="Rbtn loginOut mart20"><i class="Icon Icon-out"></i> 退出</a>
+                        <!--调节音量over-->
+                        <!--选择发言模式begin-->
+                        <div class="Micphone">
+                            <p>
+                                <label><input type="radio"> 自由发言</label>
+                                <label class="marl20"><input type="radio"> 按F2发言</label>
+                            </p>
+                            <p><label><input type="checkbox"> 麦克风静音</label></p>
+                        </div>
+                        <!--选择发言模式over-->
+                        <div class="Grab aligncenter">
+                            <a href="#" class="GrabBtn grey">抢麦</a><!--加grey变灰色-->
+                            <a href="#" class="GrabBtnOver" style="display: none;">完毕</a><!--加grey变灰色-->
+                        </div>
+                        <a href="#" class="Rbtn loginOut mart15"><i class="Icon Icon-out"></i> 退出</a>
                     </div>
                 </div>
                 <!--右侧边栏over-->
                 <!--右侧二级侧边栏begin-->
-                <div class="RightBarB" style="right:0;top:3px;">
+                <div class="RightBarB" style="right:0;top:3px;display: none;">
                     <!--左侧的四个悬浮按钮begin-->
                     <div class="BarLeft">
                         <a href=""><i class="Icon Icon-write-m"></i></a>
@@ -176,110 +207,100 @@
                     <!--左侧的四个悬浮按钮over-->
                     <div class="RightBarB-in">
                         <a href="javascript:;" class="Icon Icon-off"></a>
-                        <div class="Mtitle font16">
-                            <i class="Icon Icon-group"></i> 会议成员
-                        </div>
+                        <p class="TopTime aligncenter">
+                            <em>会议时长</em><br>
+                            <span class="font30">01:05:34</span>
+                        </p>
                         <div class="mainIn">
-                            <div class="mart30 clearfix">
-                                <!--搜索begin-->
-                                <div class="search search-mini width150 floatleft"><!--显示搜索结果 此处加 current-->
-                                    <input type="text" placeholder="房间编号/姓名" class="width100">
-                                    <a href="#" class="Icon Icon-ser"></a>
-                                    <ul>
-                                        <li class="current">
-                                            <span class="name">习近平习近平</span>
-                                            <span>产品部</span>
-                                            <span>产品经理</span>
-                                        </li>
-                                        <li>
-                                            <span class="name">习近平</span>
-                                            <span>产品部</span>
-                                            <span>产品经理</span>
-                                        </li>
-                                        <li>
-                                            <span class="name">习近平</span>
-                                            <span>产品部</span>
-                                            <span>产品经理</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--搜索over-->
-                                <span class="block floatleft marl20">姓名：<input type="text" class="int width80"></span>
-                                <span class="block floatleft marl20">手机：<input type="text" class="int width100"></span>
-                                <a href="#" class="floatleft btn btn-primary mart3 marl20"><i class="Icon Icon-add"></i> 添加更多</a>
-                            </div>
-                            <ul class="UserList UserTab mart20 nomarl">
+                            <ul class="UserList UserTab mart10 nomarl">
                                 <li class="clearfix">
                                     <span class="UserImg block floatleft"><img src="images/1.jpg"></span>
                                     <div class="UserBox">
-                                        <p class="clearfix">
+                                        <p>
                                             <span class="UserName"><i class="Icon Icon-man"></i> 习近平</span>
                                             <span class="Departmen"><i class="Icon Icon-box"></i> 技术支持部</span>
                                             <span><i class="Icon Icon-phone"></i> 18622595158</span>
                                         </p>
                                         <div class="BtnItems">
-                                            <a href="javascript:;" class="online nomarr marl10"><i class="Icon Icon-online"></i> 已接通</a>
-                                            <a href="javascript:;" class="mart5 nomarr marl5 Kout"><i class="Icon Icon-men"></i> 踢出</a>
+                                            <a href="javascript:;" class="marl5 nomarr"><i class="Icon Icon-v"></i> 未静音</a>
+                                            <a href="#" class="marl10 nomarr"><i class="Icon Icon-m"></i> 未静音</a>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="clearfix">
                                     <span class="UserImg block floatleft"><img src="images/1.jpg"></span>
                                     <div class="UserBox">
-                                        <p class="clearfix">
+                                        <p>
                                             <span class="UserName"><i class="Icon Icon-man"></i> 习近平</span>
                                             <span class="Departmen"><i class="Icon Icon-box"></i> 技术支持部</span>
                                             <span><i class="Icon Icon-phone"></i> 18622595158</span>
                                         </p>
                                         <div class="BtnItems">
-                                            <a href="javascript:;" class="wait nomarr marl10"><i class="Icon Icon-wait"></i> 连接中</a>
-                                            <a href="javascript:;" class="mart5 nomarr marl5 Kout"><i class="Icon Icon-men"></i> 踢出</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="UserImg block floatleft"><img src="images/1.jpg"></span>
-                                    <div class="UserBox">
-                                        <p class="clearfix">
-                                            <span class="UserName"><i class="Icon Icon-man"></i> 习近平</span>
-                                            <span class="Departmen"><i class="Icon Icon-box"></i> 技术支持部</span>
-                                            <span><i class="Icon Icon-phone"></i> 18622595158</span>
-                                        </p>
-                                        <div class="BtnItems">
-                                            <a href="javascript:;" class="cut nomarr marl10"><i class="Icon Icon-cut"></i> 已挂断</a>
-                                            <a href="javascript:;" class="mart5 nomarr marl5 Kout"><i class="Icon Icon-men"></i> 踢出</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="UserImg block floatleft"><img src="images/1.jpg"></span>
-                                    <div class="UserBox">
-                                        <p class="clearfix">
-                                            <span class="UserName"><i class="Icon Icon-man"></i> 习近平</span>
-                                            <span class="Departmen"><i class="Icon Icon-box"></i> 技术支持部</span>
-                                            <span><i class="Icon Icon-phone"></i> 18622595158</span>
-                                        </p>
-                                        <div class="BtnItems">
-                                            <a href="javascript:;" class="wait nomarr marl10"><i class="Icon Icon-wait"></i> 连接中</a>
-                                            <a href="javascript:;" class="mart5 nomarr marl5 Kout"><i class="Icon Icon-men"></i> 踢出</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="UserImg block floatleft"><img src="images/1.jpg"></span>
-                                    <div class="UserBox">
-                                        <p class="clearfix">
-                                            <span class="UserName"><i class="Icon Icon-man"></i> 习近平</span>
-                                            <span class="Departmen"><i class="Icon Icon-box"></i> 技术支持部</span>
-                                            <span><i class="Icon Icon-phone"></i> 18622595158</span>
-                                        </p>
-                                        <div class="BtnItems">
-                                            <a href="javascript:;" class="mart5 nomarr marl10"><i class="Icon Icon-call"></i> 接过来</a>
-                                            <a href="javascript:;" class="mart5 nomarr marl5 Kout"><i class="Icon Icon-men"></i> 踢出</a>
+                                            <a href="javascript:;" class="no-Voice marl5 nomarr mart7"><i class="Icon no-voice"></i> 已静音</a>
+                                            <a href="#" class="no-Mic nomarl nomarr mart7"><i class="Icon no-mic"></i> 已静音</a>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
+                            <div class="attachment-list">
+                                <div class="md-attachment mart10">
+                                <ul class="all-att clearfix">
+                                    <li class="clearfix">
+                                        <span class="docimg floatleft"><img src="images/pdf.png"></span>
+                                        <div class="floatleft">
+                                            <p class="txt_hidden">
+                                                <span>数段名</span>
+                                            </p>
+                                            <p class="p-top10 clearfix">
+                                                <em>(20.5KB)</em>
+                                                <a target="_blank" href="" class="color-black">下载</a>
+                                                <a target="_blank" href="" class="color-black">预览</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="docimg floatleft"><img src="images/png.png"></span>
+                                        <div class="floatleft">
+                                            <p class="txt_hidden">
+                                                <span>数段名</span>
+                                            </p>
+                                            <p class="p-top10 clearfix">
+                                                <em>(20.5KB)</em>
+                                                <a target="_blank" href="" class="color-black">下载</a>
+                                                <a target="_blank" href="" class="color-black">预览</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="docimg floatleft"><img src="images/txt.png"></span>
+                                        <div class="floatleft">
+                                            <p class="txt_hidden">
+                                                <span>数段名</span>
+                                            </p>
+                                            <p class="p-top10 clearfix">
+                                                <em>(20.5KB)</em>
+                                                <a target="_blank" href="" class="color-black">下载</a>
+                                                <a target="_blank" href="" class="color-black">预览</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="docimg floatleft"><img src="images/zip.png"></span>
+                                        <div class="floatleft">
+                                            <p class="txt_hidden">
+                                                <span>数段名</span>
+                                            </p>
+                                            <p class="p-top10 clearfix">
+                                                <em>(20.5KB)</em>
+                                                <a target="_blank" href="" class="color-black">下载</a>
+                                                <a target="_blank" href="" class="color-black">预览</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                            <p class="aligncenter p-top10"><a href="#"><i class="Icon Icon-play"></i> 开始录音</a></p>
                         </div>
                     </div>
                 </div>
@@ -289,39 +310,21 @@
                         <i class="Icon Icon-group"></i> 2014第一季度产品规划会议
                     </div>
                     <div class="FrameIn nopadding">
-                        <div class="broad mart10">
-                            <!--会议时间begin-->
-                            <div class="RoomTime">
-                                <p class="Roomp1"><em>会议时长</em> <span>01</span>:<span>05</span>:<span>34</span></p>
-                                <p class="Roomp2"><em>录音时长</em> <span>01</span>:<span>05</span>:<span>34</span></p>
-                            </div>
-                            <!--会议时间over-->
+                        <div class="aligncenter color-1f7cba p-top40">
+                            <p>会议已进行</p>
+                            <p class="font30 mart20">01:05:34</p>
+                        </div>
+                        <div class="broad mart50">
                             <div class="broadTop">
                                 <p>今日重点讨论问题:</p>
                                 <p>1、P2P未来发展前景</p>
                                 <p>2、物联网的发展方式</p>
                             </div>
-                            <div class="broadMid">
-                                <p>会议室：“关于张柏芝的归属权讨论第一次会议”已建立。</p>
-                                <p class="IN"><i class="Icon Icon-in"></i><span>陈冠希</span>进入了会议室。</p>
-                                <p class="IN"><i class="Icon Icon-in"></i><span>张柏芝</span>退出了会议室。</p>
-                                <p class="IN"><i class="Icon Icon-in"></i><span>谢霆锋</span>退出了会议室。</p>
-                                <p class="IN"><i class="Icon Icon-in"></i><span>谢逊</span>退出了会议室。</p>
-                                <p class="OUT"><i class="Icon Icon-ou"></i><span>谢晋</span>退出了会议室。</p>
-                                <p class="IN"><i class="Icon Icon-in"></i><span>张柏芝</span>退出了会议室。</p>
-                                <p class="IN"><i class="Icon Icon-in"></i><span>谢霆锋</span>退出了会议室。</p>
-                                <p class="IN"><i class="Icon Icon-in"></i><span>谢逊</span>退出了会议室。</p>
-                                <p class="OUT"><i class="Icon Icon-ou"></i><span>谢晋</span>退出了会议室。</p>
-                            </div>
                         </div>
-                        <div class="broadBt mart10">
-                            <p class="font14 clearfix alignright">
-                                <span class="floatleft">会议笔记</span>
-                                <em style="color: #b0b0b0">您编写的会议笔记将在您退出会议室时自动保存</em>
-                            </p>
-                            <div class="mart5">
-                                <textarea rows="5" class="int"></textarea>
-                            </div>
+                        <div class="aligncenter mart30">
+                            <p>请输入房间密码</p>
+                            <p class="mart10"><input type="password" class="int width200"></p>
+                            <p><a href="#" class="btn btn-primary btn-large noborder mart20">进入房间</a></p>
                         </div>
                     </div>
                 </div>

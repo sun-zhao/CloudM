@@ -129,9 +129,11 @@ textarea.int{height:auto;vertical-align: top;}
 .Icon-del{background-position: -60px -75px;}
 .Icon-v,.Icon-m{width: 15px;height: 28px;}
 .Icon-v{background-position: -83px -75px;}
-.Icon-m{background-position: -80px -15px;}
+.Icon-m{background-position: -81px -15px;}
 .Icon-v:hover{background-position: -123px 0;}
 .Icon-m:hover{background-position: -120px -30px;}
+.RightBarB-in .mainIn  .ItemL .UserList li:hover .Icon-v{background-position: -219px 0;}
+.RightBarB-in .mainIn  .ItemL .UserList li:hover .Icon-m{background-position: -219px -29px;}
 a:hover .Icon-write{background-position: -100px 0;}
 a:hover .Icon-doc{background-position: -100px -30px;}
 a:hover .Icon-me{background-position: -100px -60px;}
@@ -171,7 +173,7 @@ a:hover .Icon-broad{background-position: -160px -153px;}
 .Icon-ou{background-position: -153px -24px;left:1px;}
 .Icon-off{width:14px;height:14px;background-position:-166px -24px;}
 .no-voice,.no-mic{width:26px;height:21px;background-position:-143px -39px;top:-2px;left: -2px;}
-.no-mic{background-position: -166px -39px;}
+.no-mic{background-position: -167px -39px;}
 .Icon-play{width:32px;height:32px;background-position: -148px -60px;vertical-align: -8px;}
 .Icon-write-m,.Icon-doc-m,.Icon-me-m,.Icon-set-m,.Icon-broad-m{width: 20px;height:23px;background-position: -153px -97px;top:8px;}
 .Icon-doc-m{background-position: -120px -123px;}

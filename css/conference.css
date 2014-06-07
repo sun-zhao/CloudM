@@ -44,8 +44,13 @@
 .mainIn  .ItemL .UserList li .UserImg{border:0;padding-top:0;margin-right:20px;}
 .mainIn  .ItemL .UserList li .UserBox{padding:0;margin-left: 30px;border:1px solid #eaeaea;height:38px;}
 .RightBarB-in .mainIn  .ItemL .UserList li .UserBox p{padding-top:11px;}
-.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p .UserName{width:120px;margin-right: 10px;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p .UserName{width:80px;margin-right: 10px;}
 .mainIn  .ItemL .UserList li:hover .UserBox,.mainIn  .ItemL .UserList li.current .UserBox{background: #0066cc;color: #fff;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p a{position: absolute;top:6px;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p a.IconV{right:100px;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p a.IconM{right:70px;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p a.no-Voice{right:88px;top:11px;}
+.RightBarB-in .mainIn  .ItemL .UserList li .UserBox p a.no-Mic{right:55px;top:11px;}
 
 
 .MList{border:1px solid #e2dede;background: #f7f7f7;position: relative;overflow: hidden;height: 554px;}

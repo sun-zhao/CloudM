@@ -26,9 +26,9 @@
       <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="33" selection-start="8881" selection-end="8881" vertical-scroll-proportion="0.0" vertical-offset="4527" max-vertical-offset="6723">
+            <state line="115" column="56" selection-start="5263" selection-end="5263" vertical-scroll-proportion="-11.88" vertical-offset="2808" max-vertical-offset="6723">
               <folding>
-                <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
+                <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -37,9 +37,10 @@
       <file leaf-file-name="白板.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/白板.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="41" selection-start="6237" selection-end="6237" vertical-scroll-proportion="-2.0701754" vertical-offset="3851" max-vertical-offset="5022">
+            <state line="166" column="63" selection-start="7529" selection-end="7529" vertical-scroll-proportion="1.7719299" vertical-offset="4340" max-vertical-offset="5346">
               <folding>
-                <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#span#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#table#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#table#1;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#td#3;tag#tr#0;tag#table#1;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="44" selection-start="6531" selection-end="6531" vertical-scroll-proportion="-0.03508772" vertical-offset="4048" max-vertical-offset="6858">
+            <state line="6" column="44" selection-start="220" selection-end="220" vertical-scroll-proportion="-2.8421052" vertical-offset="0" max-vertical-offset="6858">
               <folding>
                 <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -63,7 +64,16 @@
       <file leaf-file-name="conference.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/conference.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="73" selection-start="3835" selection-end="3835" vertical-scroll-proportion="0.28471002" vertical-offset="1215" max-vertical-offset="7884">
+            <state line="151" column="54" selection-start="10695" selection-end="10695" vertical-scroll-proportion="0.427065" vertical-offset="3834" max-vertical-offset="7749">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conference.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/js/conference.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="3526" selection-end="3933" vertical-scroll-proportion="-10.8" vertical-offset="1026" max-vertical-offset="7884">
               <folding />
             </state>
           </provider>
@@ -149,8 +159,9 @@
         <option value="$PROJECT_DIR$/会议成员.html" />
         <option value="$PROJECT_DIR$/进入会议室.html" />
         <option value="$PROJECT_DIR$/room.html" />
-        <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/set.html" />
+        <option value="$USER_HOME$/Desktop/conference.css" />
+        <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/css/conference.css" />
       </list>
     </option>
@@ -333,22 +344,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="79" selection-start="0" selection-end="13787" vertical-scroll-proportion="0.0" vertical-offset="3915" max-vertical-offset="7884">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="5280" selection-end="5345" vertical-scroll-proportion="0.0" vertical-offset="2214" max-vertical-offset="4374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/step1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="343" column="83" selection-start="19707" selection-end="19707" vertical-scroll-proportion="0.0" vertical-offset="9261" max-vertical-offset="9693">
@@ -397,7 +392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="24" selection-start="7725" selection-end="7893" vertical-scroll-proportion="0.0" vertical-offset="4185" max-vertical-offset="5508">
           <folding>
-            <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -408,13 +403,6 @@
           <folding>
             <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="83" selection-start="10302" selection-end="10302" vertical-scroll-proportion="0.0" vertical-offset="3751" max-vertical-offset="4347">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -439,15 +427,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="70" selection-start="3389" selection-end="3447" vertical-scroll-proportion="0.0" vertical-offset="2178" max-vertical-offset="5211">
           <folding>
-            <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="182" selection-start="7987" selection-end="7987" vertical-scroll-proportion="0.0" vertical-offset="3159" max-vertical-offset="3321">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,15 +472,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="92" selection-start="3333" selection-end="3333" vertical-scroll-proportion="0.0" vertical-offset="2178" max-vertical-offset="4833">
           <folding>
-            <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2916">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,15 +497,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="4185">
           <folding>
-            <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="106" selection-start="2813" selection-end="2813" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="2052">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,15 +515,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="4185">
           <folding>
-            <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="106" selection-start="2813" selection-end="2813" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="2052">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,15 +533,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="0" selection-start="4670" selection-end="4681" vertical-scroll-proportion="0.0" vertical-offset="2214" max-vertical-offset="3645">
           <folding>
-            <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.0" vertical-offset="1107" max-vertical-offset="1620">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="102" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.0" vertical-offset="1422" max-vertical-offset="4428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newmdLA/md-plus/css/md-plus-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="889" column="0" selection-start="58427" selection-end="58890" vertical-scroll-proportion="0.0" vertical-offset="23814" max-vertical-offset="24840" />
@@ -680,28 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/白板.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="41" selection-start="6237" selection-end="6237" vertical-scroll-proportion="-2.0701754" vertical-offset="3851" max-vertical-offset="5022">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#table#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#table#1;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#td#3;tag#tr#0;tag#table#1;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="44" selection-start="6531" selection-end="6531" vertical-scroll-proportion="-0.03508772" vertical-offset="4048" max-vertical-offset="6858">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/step1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="45" selection-start="2783" selection-end="2783" vertical-scroll-proportion="-0.98245615" vertical-offset="1726" max-vertical-offset="14472">
@@ -713,15 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="184" column="70" selection-start="8548" selection-end="8548" vertical-scroll-proportion="-0.50877196" vertical-offset="4939" max-vertical-offset="9153">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="33" selection-start="8881" selection-end="8881" vertical-scroll-proportion="0.0" vertical-offset="4527" max-vertical-offset="6723">
-          <folding>
-            <marker date="1402157878372" expanded="true" signature="1123:1147" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,9 +657,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/conference.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="42" selection-start="16106" selection-end="16106" vertical-scroll-proportion="0.28471002" vertical-offset="6210" max-vertical-offset="7749">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/白板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="63" selection-start="7529" selection-end="7529" vertical-scroll-proportion="1.7719299" vertical-offset="4340" max-vertical-offset="5346">
+          <folding>
+            <element signature="tag#span#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#table#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#table#1;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#td#3;tag#tr#0;tag#table#1;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="220" selection-end="220" vertical-scroll-proportion="-2.8421052" vertical-offset="0" max-vertical-offset="6858">
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/js/conference.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="3526" selection-end="3933" vertical-scroll-proportion="-10.8" vertical-offset="1026" max-vertical-offset="7884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="56" selection-start="5263" selection-end="5263" vertical-scroll-proportion="-11.88" vertical-offset="2808" max-vertical-offset="6723">
+          <folding>
+            <marker date="1402198263758" expanded="true" signature="1123:1147" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/conference.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="73" selection-start="3835" selection-end="3835" vertical-scroll-proportion="0.28471002" vertical-offset="1215" max-vertical-offset="7884">
+        <state line="151" column="54" selection-start="10695" selection-end="10695" vertical-scroll-proportion="0.427065" vertical-offset="3834" max-vertical-offset="7749">
           <folding />
         </state>
       </provider>

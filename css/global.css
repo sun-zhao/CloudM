@@ -110,7 +110,7 @@ textarea.int{height:auto;vertical-align: top;}
 .Icon-ser{width:33px;height:29px;background-position: 0 0;}
 .Icon-add{width:11px;height:11px;background-position: 0 -29px;}
 .Icon-user{width:19px;height:16px;background-position: 0 -40px;}
-.RoomList li.current .Icon-user,.RoomList li:hover .Icon-user{background-position: 0 -56px;}
+.RoomList li.current .Icon-user,.RoomList li:hover .Icon-user{background-position: 1px -56px;}
 .Icon-prev,.Icon-next{width:40px;height:19px;background-position: 0 -72px;}
 .Icon-next{background-position: 0 -91px;}
 .Icon-time{width:16px;height:16px;background-position: -19px -29px;}
@@ -131,9 +131,9 @@ textarea.int{height:auto;vertical-align: top;}
 .Icon-v{background-position: -83px -75px;}
 .Icon-m{background-position: -81px -15px;}
 .Icon-v:hover{background-position: -123px 0;}
-.Icon-m:hover{background-position: -120px -30px;}
-.RightBarB-in .mainIn  .ItemL .UserList li:hover .Icon-v{background-position: -219px 0;}
-.RightBarB-in .mainIn  .ItemL .UserList li:hover .Icon-m{background-position: -219px -29px;}
+.Icon-m:hover{background-position: -121px -30px;}
+.mainIn  .ItemL .UserList li:hover .Icon-v{background-position: -219px 0;}
+.mainIn  .ItemL .UserList li:hover .Icon-m{background-position: -219px -29px;}
 a:hover .Icon-write{background-position: -100px 0;}
 a:hover .Icon-doc{background-position: -100px -30px;}
 a:hover .Icon-me{background-position: -100px -60px;}
@@ -213,7 +213,7 @@ a:hover .Icon-closerob{background-position:-138px -236px;}
 .prev:hover{background-position: -211px -241px;}
 .next{background-position: -210px -183px;right:10px;}
 .next:hover{background-position: -210px -212px;}
-.RightIn:hover .prev,.RightIn:hover .next{display: block;}
+.FrameIn:hover .prev,.FrameIn:hover .next{display: block;}
 /*这里是明道大结构的样式2013-8-7*/
 #Container{width:1000px;margin:0 auto;padding-bottom:50px;background-color:#fff;position:relative;color: #404040;overflow: hidden;padding-top: 25px;}
 

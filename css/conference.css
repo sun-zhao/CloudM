@@ -55,7 +55,7 @@
 .MList{border:1px solid #e2dede;background: #f7f7f7;position: relative;overflow: hidden;height: 520px;}
 .ML-top{height: 33px;border-bottom:1px solid #e2dede;line-height: 33px;padding:0 5px 0 10px;background: #fff;position: relative;z-index: 20;}
 .RoomList{position: absolute;width: 100%;height: 9999px;left:0;top:0;padding-top: 40px;}
-.RoomList li{margin-top:10px;}
+.RoomList li{margin-top:10px;position: relative;}
 .RoomList li a{display: block;height:30px;line-height: 30px;padding:0 10px 0 10px;color: #1f7cba;}
 .RoomList li a .Icon{top:2px;margin-right:5px;}
 .RoomList li.current,.RoomList li:hover{background: #1f7cba;}

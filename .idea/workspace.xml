@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conference.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="conference.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/conference.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="238" column="91" selection-start="16386" selection-end="16386" vertical-scroll-proportion="0.3321617" vertical-offset="6237" max-vertical-offset="8370">
+            <state line="57" column="48" selection-start="4219" selection-end="4219" vertical-scroll-proportion="-8.64" vertical-offset="1323" max-vertical-offset="8370">
               <folding />
             </state>
           </provider>
@@ -113,13 +113,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="room.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="room.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/room.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="46" selection-start="11153" selection-end="11153" vertical-scroll-proportion="-6.875" vertical-offset="2210" max-vertical-offset="3888">
+            <state line="92" column="64" selection-start="3814" selection-end="3814" vertical-scroll-proportion="0.47652173" vertical-offset="1076" max-vertical-offset="6480">
               <folding>
                 <element signature="tag#script#1;tag#head#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -150,9 +149,9 @@
       <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="235" column="0" selection-start="12489" selection-end="12489" vertical-scroll-proportion="0.0" vertical-offset="5931" max-vertical-offset="7290">
+            <state line="237" column="47" selection-start="12702" selection-end="12702" vertical-scroll-proportion="0.0" vertical-offset="6174" max-vertical-offset="7317">
               <folding>
-                <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
+                <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -182,9 +181,9 @@
         <option value="$PROJECT_DIR$/step1.html" />
         <option value="$PROJECT_DIR$/进入会议室.html" />
         <option value="$PROJECT_DIR$/会议成员.html" />
-        <option value="$PROJECT_DIR$/room.html" />
-        <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/css/conference.css" />
+        <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/room.html" />
       </list>
     </option>
   </component>
@@ -420,7 +419,6 @@
         <state line="251" column="62" selection-start="12990" selection-end="12990" vertical-scroll-proportion="0.0" vertical-offset="6777" max-vertical-offset="7236">
           <folding>
             <element signature="tag#script#1;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -442,7 +440,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="24" selection-start="7725" selection-end="7893" vertical-scroll-proportion="0.0" vertical-offset="4185" max-vertical-offset="5508">
           <folding>
-            <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -483,7 +481,6 @@
         <state line="171" column="49" selection-start="7782" selection-end="7782" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="1647">
           <folding>
             <element signature="tag#script#1;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -505,7 +502,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="70" selection-start="3389" selection-end="3447" vertical-scroll-proportion="0.0" vertical-offset="2178" max-vertical-offset="5211">
           <folding>
-            <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -565,7 +562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="92" selection-start="3333" selection-end="3333" vertical-scroll-proportion="0.0" vertical-offset="2178" max-vertical-offset="4833">
           <folding>
-            <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -605,7 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="4185">
           <folding>
-            <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -623,7 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="4185">
           <folding>
-            <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -641,7 +638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="0" selection-start="4670" selection-end="4681" vertical-scroll-proportion="0.0" vertical-offset="2214" max-vertical-offset="3645">
           <folding>
-            <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
+            <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -785,22 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/会议成员.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="95" selection-start="11223" selection-end="11223" vertical-scroll-proportion="-6.6666665" vertical-offset="5587" max-vertical-offset="9153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="0" selection-start="12489" selection-end="12489" vertical-scroll-proportion="0.0" vertical-offset="5931" max-vertical-offset="7290">
-          <folding>
-            <marker date="1402250446262" expanded="true" signature="1123:1147" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/进入会议室.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="330" column="70" selection-start="17648" selection-end="17648" vertical-scroll-proportion="-7.53125" vertical-offset="1217" max-vertical-offset="1944">
@@ -820,22 +801,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/room.html">
+    <entry file="file://$PROJECT_DIR$/css/conference.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="101" selection-start="10770" selection-end="11134" vertical-scroll-proportion="0.41913044" vertical-offset="2432" max-vertical-offset="4941">
+        <state line="57" column="48" selection-start="4219" selection-end="4219" vertical-scroll-proportion="-8.64" vertical-offset="1323" max-vertical-offset="8370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="47" selection-start="12702" selection-end="12702" vertical-scroll-proportion="0.0" vertical-offset="6174" max-vertical-offset="7317">
           <folding>
-            <element signature="tag#script#1;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1402252357675" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/会议成员.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="95" selection-start="11223" selection-end="11223" vertical-scroll-proportion="-6.6666665" vertical-offset="5587" max-vertical-offset="9153">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/room.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="46" selection-start="11153" selection-end="11153" vertical-scroll-proportion="-6.875" vertical-offset="2210" max-vertical-offset="3888">
+        <state line="92" column="64" selection-start="3814" selection-end="3814" vertical-scroll-proportion="0.47652173" vertical-offset="1076" max-vertical-offset="6480">
           <folding>
             <element signature="tag#script#1;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -850,13 +843,6 @@
             <element signature="tag#div#2;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#em#0;n#p#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/conference.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="91" selection-start="16386" selection-end="16386" vertical-scroll-proportion="0.3321617" vertical-offset="6237" max-vertical-offset="8370">
-          <folding />
         </state>
       </provider>
     </entry>

@@ -181,6 +181,8 @@ a.Icon-off{position: absolute;top:10px;right:10px;z-index: 30;}
 .mainIn .UserList li .UserBox .BtnItems a.no-Voice .Icon,.mainIn .UserList li .UserBox .BtnItems a.no-Mic .Icon
 {margin-right:0;}
 .mainIn .UserList li .UserBox .BtnItems a.no-Mic .Icon{margin-right:2px;}
+.mainIn .UserList li .UserBox .BtnItems a.Icon-up-m,.mainIn .UserList li .UserBox .BtnItems a.Icon-down-m{display: none;}
+
 .BarLeft{position: absolute;left:-30px;top:40px;}
 .BarLeft a{display:block;width:40px;height:40px;line-height:40px;text-align:center;background: #c7c7c7;margin-bottom:10px;}
 .BarLeft a:hover,.BarLeft a.current{background: #0066cc;}

@@ -128,7 +128,7 @@
 .upload:hover{background:#dfecfb;border-color:#b8d4f5;}
 /*2014-01-28 附件*/
 .updaterDialog{position:relative;}
-.updaterDialog_Main{border:1px solid #F0F0F0;background: #fff;border-radius:5px;padding:5px 10px;width:494px;z-index: 20;min-height:70px;margin-left: 4px;}
+.updaterDialog_Main{border:1px solid #F0F0F0;background: #fff;border-radius:5px;padding:5px 10px;z-index: 20;min-height:70px;margin-left: 4px;}
 .updaterDialog_Main em.ti{display: block;width:18px;height:12px;font-size:0;line-height:0;position:absolute;top:-9px;left:30px;}
 .md-psot-ico{width:75px;height:55px;padding-top:10px;color:#AAAAAA;}
 .md-psot-ico img{margin-bottom:10px;}
@@ -285,7 +285,7 @@ a.close:hover{text-decoration: none;}
 .STEP2,.STEP3{height:510px;}
 .md-result-user,.md-plus-ser ul{background:#FFF;border:1px solid #E3E3E3;padding:5px 0;position:absolute;z-index:101;box-shadow:0 2px 5px rgba(0, 0, 0, 0.15);width:260px;border-radius:5px;}
 .md-result-user .current{border-color:#d2ea00;}
-.md-result-user{padding-top:0;}
+.md-result-user{padding-top:0;height: 210px;overflow: hidden;overflow-y: scroll;}
 .the-name{height:30px;line-height:30px;padding-left:10px;font-size:14px;font-weight:bold;color:#666;}
 .md-results{cursor:pointer;padding:0 20px 0 5px;line-height:36px;height:36px;width:235px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 .md-result-user.group .md-results{padding:0 20px 0 20px;width:220px;}

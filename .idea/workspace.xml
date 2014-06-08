@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conference.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="conference.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/conference.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="126" selection-start="13062" selection-end="13062" vertical-scroll-proportion="0.0" vertical-offset="4754" max-vertical-offset="8478">
+            <state line="184" column="121" selection-start="12923" selection-end="12923" vertical-scroll-proportion="0.496633" vertical-offset="4673" max-vertical-offset="8478">
               <folding />
             </state>
           </provider>
@@ -147,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="0" selection-start="6042" selection-end="6042" vertical-scroll-proportion="-4.5757575" vertical-offset="6228" max-vertical-offset="7560">
+            <state line="130" column="0" selection-start="6042" selection-end="6042" vertical-scroll-proportion="0.0" vertical-offset="6228" max-vertical-offset="7560">
               <folding>
                 <marker date="1402257190317" expanded="true" signature="1123:1147" placeholder="{...}" />
               </folding>
@@ -834,19 +834,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/conference.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="126" selection-start="13062" selection-end="13062" vertical-scroll-proportion="0.0" vertical-offset="4754" max-vertical-offset="8478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="0" selection-start="6042" selection-end="6042" vertical-scroll-proportion="-4.5757575" vertical-offset="6228" max-vertical-offset="7560">
+        <state line="130" column="0" selection-start="6042" selection-end="6042" vertical-scroll-proportion="0.0" vertical-offset="6228" max-vertical-offset="7560">
           <folding>
             <marker date="1402257190317" expanded="true" signature="1123:1147" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/conference.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="121" selection-start="12923" selection-end="12923" vertical-scroll-proportion="0.496633" vertical-offset="4673" max-vertical-offset="8478">
+          <folding />
         </state>
       </provider>
     </entry>

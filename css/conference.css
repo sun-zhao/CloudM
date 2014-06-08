@@ -182,7 +182,7 @@ a.Icon-off{position: absolute;top:10px;right:10px;z-index: 30;}
 .mainIn .UserList li .UserBox .BtnItems a.no-Voice .Icon,.mainIn .UserList li .UserBox .BtnItems a.no-Mic .Icon
 {margin-right:0;}
 .mainIn .UserList li .UserBox .BtnItems a.no-Mic .Icon{margin-right:2px;}
-.mainIn .UserList li:hover .UserBox .BtnItems a.Icon-up-m,.mainIn .UserList li:hover .UserBox .BtnItems a.Icon-down-m{display: none;}
+.mainIn .UserList li .UserBox .BtnItems a.Icon-up-m,.mainIn .UserList li .UserBox .BtnItems a.Icon-down-m{display: none;}
 .mainIn .UserList li:hover .UserBox .BtnItems a.Icon-up-m,.mainIn .UserList li:hover .UserBox .BtnItems a.Icon-down-m{display:block;}
 
 .BarLeft{position: absolute;left:-30px;top:40px;}

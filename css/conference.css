@@ -233,9 +233,10 @@ a.close:hover{text-decoration: none;}
 .color8 em{background-color:#8000ff;}
 .color9 em{background-color:#cccc00;}
 .Broad{height:460px;border:1px solid #eee;box-shadow: 2px 1px 2px 2px #bcbcbc;}
+.mainIn .UserTab{margin-right:0;}
 .UserTab li .UserImg,.UserTab li .UserBox{border-radius:6px;height: 40px;}
-.mainIn .UserTab li{background: none;}
-.mainIn .UserTab li .UserImg{height: 40px;padding:0 0 0 5px;}
+.mainIn .UserTab li{background: none;padding-right:20px;}
+.mainIn .UserTab li .UserImg{height: 40px;padding:0 0 0 5px;position: relative;z-index: 20;}
 .mainIn .UserTab li .UserBox  .BtnItems{background: none;height: 40px;width: 150px;}
 .mainIn .UserTab li .UserBox  .BtnItems a{margin-top:5px;line-height: 30px;}
 .mainIn .UserTab li .UserBox .BtnItems a .Icon{margin-right:2px;}
@@ -246,7 +247,7 @@ a.close:hover{text-decoration: none;}
 .mainIn .UserTab li .UserBox p span{display: inline-block;height:40px;line-height:44px; float: left;}
 .mainIn .UserTab li .UserBox p span.Departmen,.mainIn .UserTab li .UserBox p span.UserName{top:0;}
 .mainIn .UserTab li .UserBox .BtnItems a.no-Voice,.mainIn .UserTab li .UserBox .BtnItems a.no-Mic{margin-top:13px;}
-.mainIn .UserTab li:nth-child(2n){background: #f8f8f7;}
+.mainIn .UserTab li:nth-child(2n) .UserBox{background: #f8f8f7;}
 .mainIn .UserTab li .UserBox .BtnItems a.Kout.red{color:#999;}
 
 .md-attachment{position:relative;z-index: 10;margin:5px 0 0 5px;}

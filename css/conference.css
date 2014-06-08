@@ -275,7 +275,7 @@ a.close:hover{text-decoration: none;}
 .stop,.close2,.closerob{color: #c63d4d;}
 .stop:hover,.close2:hover,.closerob:hover{color: #9d2432;}
 .STEPBox{width:9999px;height:550px;position: absolute;}
-.STEP{height: 550px;width:704px;float: left;}
+.STEP{height: 550px;width:694px;float: left;padding: 0 10px 0 0;}
 .STEP2,.STEP3{height:510px;}
 
 

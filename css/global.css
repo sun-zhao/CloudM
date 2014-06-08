@@ -132,6 +132,7 @@ textarea.int{height:auto;vertical-align: top;}
 .Icon-m{background-position: -81px -15px;}
 .Icon-v:hover{background-position: -123px 0;}
 .Icon-m:hover{background-position: -121px -30px;}
+.Icon-v.grey{background-position: -220px -58px;cursor: default;}
 .mainIn  .ItemL .UserList li:hover .Icon-v{background-position: -219px 0;}
 .mainIn  .ItemL .UserList li:hover .Icon-m{background-position: -219px -29px;}
 a:hover .Icon-write{background-position: -100px 0;}

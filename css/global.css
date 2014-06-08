@@ -128,6 +128,15 @@ textarea.int{height:auto;vertical-align: top;}
 .Icon-set{background-position: -40px -75px;}
 .Icon-broad{background-position: -140px -153px;}
 .Icon-del{background-position: -60px -75px;}
+
+.grey .Icon-write,.grey:hover .Icon-write{background-position: -240px 0;}
+.grey .Icon-doc,.grey:hover .Icon-doc{background-position: -240px -30px;}
+.grey .Icon-me,.grey:hover .Icon-me{background-position: -240px -60px;}
+.grey .Icon-set,.grey:hover .Icon-set{background-position: -240px -90px;}
+.grey .Icon-broad,.grey:hover .Icon-broad{background-position: -240px -120px;}
+.grey .Icon-del,.grey:hover .Icon-del{background-position: -240px -150px;}
+
+
 .Icon-v,.Icon-m{width: 15px;height: 28px;}
 .Icon-v{background-position: -83px -75px;}
 .Icon-m{background-position: -81px -15px;}
